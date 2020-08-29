@@ -12,9 +12,10 @@ steps:
 
 - task: SonarCloudPrepare@1
   inputs:
-    SonarCloud: 'eider_sonar_cloud'
-    organization: 'eidermauricio'
+    SonarCloud: 'sonar_cloud_demo'
+    organization: 'wicuellar'
     scannerMode: 'Other'
+
 
 - task: Maven@3
   inputs:
